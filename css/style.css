@@ -1,0 +1,244 @@
+.bodi_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1280px;
+  height: auto; /*auto; /* 1399px;*/
+
+  background: #f5f7fa;
+  /*box-shadow: #fb6d3a;*/
+}
+
+.main_container {
+  background: #ffffff; /* background: #f5f7fa;*/
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  height: auto; /*1319px*/
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 30px;
+  color: #000000;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  text-shadow: 6px 6px 12px rgba(128, 128, 128, 0.452);
+  font-size: 45px;
+  line-height: 54, 84px;
+  color: #000;
+}
+h2 {
+  color: #595959;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  font-size: 22px;
+  line-height: 26, 82px;
+  text-shadow: 4px 4px 8px rgba(128, 128, 128, 0.452);
+}
+h3 {
+  color: #8a94a3;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  line-height: 19, 5px;
+  text-shadow: 3px 3px 6px rgba(128, 128, 128, 0.452);
+}
+h1,
+h2,
+h3,
+p {
+  padding: 0px;
+  padding-left: 40px;
+  width: 700;
+}
+ul,
+ol {
+  margin-left: 20px;
+}
+ol {
+  font-weight: bold;
+  text-shadow: 3px 3px 6px lightgrey;
+}
+.details_my {
+  margin-left: 40px;
+}
+details {
+  font-weight: 400;
+  color: #a8a8a8;
+}
+.sum,
+.sum_P {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000;
+}
+
+.sum {
+  text-align: right;
+}
+/*=======left-section=======*/
+
+.MY_img {
+  image-rendering: optimizeQuality;
+  width: 300px;
+  height: auto;
+  margin: 35px auto auto 35px;
+  box-shadow: 6px 6px 20px rgba(255, 255, 255, 0.103);
+}
+.left_section {
+  background: #1e2939;
+  color: #ffffff;
+  width: 370px;
+}
+.left_block_h2 {
+  margin-left: 40px;
+  margin-right: auto;
+  color: #ffffff;
+}
+.Contacts_block {
+  margin-top: 50px;
+  /*height: 230;*/
+}
+.Tech_Skills_block {
+  margin-top: 50px;
+  /*height: 230;*/
+}
+.Soft_Skills_block {
+  margin-top: 45px;
+  /*height: 230;*/
+}
+.orange-punkt {
+  color: #fb6d3a;
+  margin-left: 55px;
+}
+.skills-text {
+  color: #fff; /*#808790;*/
+  font-weight: 100;
+}
+.set-link {
+  color: #8a94a3; /* #8a94a3; #fff; */
+  font-weight: 400;
+  padding: 5px;
+}
+/*======right_section=======*/
+
+.right_section {
+  width: 830px;
+
+  /*background: #ffffff;*/
+}
+.Work_Experience_container_h2 {
+  padding-left: 40px;
+}
+.article {
+  padding: 0px;
+  margin-left: 40px;
+  margin-right: auto;
+  width: 525px;
+}
+/*.padding-block,*/
+.about_me_block,
+.Projects_block,
+.Work_1_block,
+.Work_2_block,
+.Work_3_block,
+.Education_block {
+  padding: 0px;
+  margin-left: 40px;
+  font-weight: 400;
+}
+.about_me_block {
+  margin-top: 90px;
+  height: auto;
+}
+
+.about_me_P {
+  width: 525px;
+}
+.about_me_S {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+}
+.Projects_block {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  color: #595959;
+  height: auto;
+}
+.Projects_block_link {
+  color: #595959;
+  font-weight: 400;
+}
+.Projects_block_bracket {
+  font-weight: bold;
+  color: #000000;
+}
+.Projects_block_text {
+  color: #595959;
+  font-weight: 400;
+}
+.Work_1_block {
+  margin-top: 50px;
+  height: auto;
+}
+.Work_2_block {
+  margin-top: 21px;
+  height: auto;
+}
+.Work_3_block {
+  margin-top: 20px;
+  height: auto;
+}
+.Education_block {
+  margin-top: 50px;
+  height: auto;
+}
+.univer,
+.Work_1_color,
+.Work_2_color,
+.Work_3_color,
+.Education_set {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+}
+.Education_set {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 60px;
+  font-size: 16px;
+  line-height: 19, 5px;
+  font-weight: 700;
+}
+.data_set {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 40px;
+  padding: 0px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+}
+.divider {
+  color: #000000;
+}
+/* .Work_Experience_container{} */

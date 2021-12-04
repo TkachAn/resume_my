@@ -80,8 +80,9 @@ details {
   color: #000;
 }
 
-.sum {
-  text-align: right;
+.sum_P {
+  margin-left: 0px;
+  padding-left: 0px;
 }
 /*=======left-section=======*/
 
